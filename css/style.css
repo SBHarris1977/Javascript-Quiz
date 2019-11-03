@@ -1,0 +1,83 @@
+body {
+    background-color: #413D3D;
+}
+ 
+.container {
+    width: 100px;
+    height: 330px;
+    background-color: #fff;
+    padding: 10px 50px 50px 50px;
+    border: 1px solid #cbcbcb;
+    
+    
+}
+ 
+.container h1 {
+    font-family: "sans-serif";
+    background-color: #01BBFF;
+    font-size: 60px;
+    text-align: center;
+    color: #ffffff;
+    padding: 2px 0px;
+    
+}
+ 
+.question {
+    padding: 20px;
+    font-size: 22px;
+    background-color: darkgray;
+    border-radius: 20px;
+    margin: 10px 0 10px 0;
+    color: white;
+    border-style: solid;
+    border-color: black;
+}
+
+.option {
+width: 470px;
+display: inline-block;
+padding: 10px, 0 10px 15px;
+vertical-align: middle;
+background: rgb(162, 199, 230);
+margin: 10px 0 10px 10px;
+color: white;
+border-radius: 20px;
+}
+    
+.option:hover {
+    background: yellow;
+    color: black
+}
+
+.next-btn {
+    border: none;
+    outline: none;
+    background-color: green;
+    border-radius: 20px;
+    width: 115px;
+    height: 62px;
+    font-size: 20px;
+    cursor: pointer;
+    float: right;
+    margin: 10px;
+    color: white;
+    
+}
+
+.next-btn:hover {
+    background: greenyellow;
+    color: black;
+}
+
+.result {
+    height: 100px;
+    text-align: center;
+    font-size: 75px;
+
+}
+
+.option input:checked .option{
+background: darkgray;
+color:black;
+}
+

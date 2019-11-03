@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="css\style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Javascript Questions</title>
+</head>
+
+<body>
+    <div id='quizContainer' class="container">
+        <h1>Quiz in JavaScript</h1>
+              <div id='question' class="question"></div>
+           <label class="option"><input type="radio" name="option" value="1" /> <span id="opt1"></span></label>
+           <label class="option"><input type="radio" name="option" value="2" /> <span id="opt2"></span></label>
+           <label class="option"><input type="radio" name="option" value="3" /> <span id="opt3"></span></label>
+           <label class="option"><input type="radio" name="option" value="4" /> <span id="opt4"></span></label>
+           <button id="nextButton" class="next-btn" onclick="loadNextQuestion();">Next Question</button>
+           <div id="timer" class="timeLeft"></div>
+
+            </div>
+            <div id="result" class="container result" style="display:none;"></div>
+        </div>
+           <script src="./questions.js"></script>
+    <script src="./quiz.js"></script>
+</body>
+
+</html>
